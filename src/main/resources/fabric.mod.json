@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "phantoms-begone",
+	"version": "${version}",
+	"name": "Phantoms Begone!",
+	"description": "A mod that adds a way to rid phantoms from your survival world!",
+	"authors": [
+		"nishihara"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/phantoms-begone/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nishihara.PhantomsBegone"
+		],
+		"fabric-datagen": [
+			"net.nishihara.PhantomsBegoneDataGenerator"
+		],
+		"client": [
+			"net.nishihara.PhantomsBegoneClient"
+		]
+	},
+	"mixins": [
+		"phantoms-begone.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

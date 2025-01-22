@@ -1,0 +1,10 @@
+{
+  "item.phantoms-begone.phantom_repellent": "Phantom Repellent",
+  "item.phantoms-begone.processed_phantom_membrane": "Processed Phantom Membrane",
+  "item.phantoms-begone.raw_night_crystal": "Raw Night Crystal",
+  "item.phantoms-begone.night_crystal": "Night Crystal",
+  "block.phantoms-begone.night_crystal_ore": "Night Crystal Ore",
+  "block.phantoms-begone.deepslate_night_crystal_ore": "Deepslate Night Crystal Ore",
+
+  "itemgroup.phantoms_begone.phantoms_begone": "Phantoms Begone"
+}
