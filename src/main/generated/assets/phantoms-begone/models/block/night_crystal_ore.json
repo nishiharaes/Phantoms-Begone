@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "phantoms-begone:block/night_crystal_ore"
+  }
+}

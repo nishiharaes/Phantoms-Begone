@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "night_crystal",
+  "ingredient": {
+    "item": "phantoms-begone:raw_night_crystal"
+  },
+  "result": {
+    "id": "phantoms-begone:night_crystal"
+  }
+}

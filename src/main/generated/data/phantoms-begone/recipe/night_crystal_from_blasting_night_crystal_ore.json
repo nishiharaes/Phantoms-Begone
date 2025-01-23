@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "night_crystal",
+  "ingredient": {
+    "item": "phantoms-begone:night_crystal_ore"
+  },
+  "result": {
+    "id": "phantoms-begone:night_crystal"
+  }
+}

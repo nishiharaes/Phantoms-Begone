@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "phantoms-begone:night_crystal"
+    },
+    "P": {
+      "item": "phantoms-begone:processed_phantom_membrane"
+    }
+  },
+  "pattern": [
+    " N ",
+    "NPN",
+    " N "
+  ],
+  "result": {
+    "count": 1,
+    "id": "phantoms-begone:phantom_repellent"
+  }
+}
