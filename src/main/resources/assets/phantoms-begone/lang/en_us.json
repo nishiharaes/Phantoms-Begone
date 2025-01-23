@@ -6,5 +6,9 @@
   "block.phantoms-begone.night_crystal_ore": "Night Crystal Ore",
   "block.phantoms-begone.deepslate_night_crystal_ore": "Deepslate Night Crystal Ore",
 
-  "itemgroup.phantoms_begone.phantoms_begone": "Phantoms Begone"
+  "itemgroup.phantoms_begone.phantoms_begone": "Phantoms Begone",
+
+  "tooltip.phantoms-begone.phantom_repellent.tooltip1": "§7Keeps you safe from phantoms in a §e50 block radius",
+  "tooltip.phantoms-begone.phantom_repellent.tooltip2": "§7Applies night vision §eindefinitely",
+  "tooltip.phantoms-begone.phantom_repellent.tooltip3": "§7Hold §eShift §7for more information"
 }

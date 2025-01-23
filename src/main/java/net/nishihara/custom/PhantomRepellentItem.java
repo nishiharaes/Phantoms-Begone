@@ -1,22 +1,18 @@
 package net.nishihara.custom;
 
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.mob.PhantomEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.server.MinecraftServer;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.text.Text;
-import net.minecraft.util.Hand;
-import net.minecraft.util.TypedActionResult;
-import net.minecraft.world.World;
-import net.nishihara.PhantomsBegone;
-
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
@@ -41,6 +37,21 @@ public class PhantomRepellentItem extends Item {
             }
 
         }
+
     }
 
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+
+        if(Screen.hasShiftDown()){
+            tooltip.add(Text.translatable("tooltip.phantoms-begone.phantom_repellent.tooltip1"));
+            tooltip.add(Text.translatable("tooltip.phantoms-begone.phantom_repellent.tooltip2"));
+        }
+        else{
+            tooltip.add(Text.translatable("tooltip.phantoms-begone.phantom_repellent.tooltip3"));
+        }
+
+
+        super.appendTooltip(stack, context, tooltip, type);
+    }
 }
