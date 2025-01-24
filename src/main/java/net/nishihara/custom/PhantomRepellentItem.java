@@ -1,5 +1,6 @@
 package net.nishihara.custom;
 
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -22,6 +23,7 @@ public class PhantomRepellentItem extends Item {
     public PhantomRepellentItem(Settings settings) {
         super(settings);
     }
+
 
     public static void checkPlayerInventory(ServerWorld world){
         for(PlayerEntity player : world.getPlayers()){
